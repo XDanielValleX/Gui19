@@ -16,6 +16,7 @@ public class guia19 extends javax.swing.JFrame {
 
         panelTitulo = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         panelDatos = new javax.swing.JPanel();
         panelEtiqueta1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
@@ -42,9 +43,13 @@ public class guia19 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Ejercicio de Paneles y Layout");
+        jLabel1.setText("Ejercicio de distribucion de Paneles y Layout");
         jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         panelTitulo.add(jLabel1);
+
+        jLabel2.setText("Por Daniel Valle");
+        jLabel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        panelTitulo.add(jLabel2);
 
         getContentPane().add(panelTitulo, java.awt.BorderLayout.PAGE_START);
 
@@ -249,6 +254,7 @@ public class guia19 extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox3;
     private javax.swing.JCheckBox jCheckBox4;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
